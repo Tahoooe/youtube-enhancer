@@ -1,0 +1,38 @@
+ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+    max-height: none;
+    height: auto;
+}
+
+#player-container {
+    position: relative!important;
+    height: auto;
+}
+
+#movie_player, #container, #ytd-player {
+    height: auto;
+}
+
+
+.html5-video-container {
+    height: auto;
+    display: block;
+}
+
+
+video.video-stream {
+    top: 0px!important;
+    position: relative!important;
+    left: unset !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: calc(100vh - 56px);
+}
+
+
+
+
+
+/* fix le full screen */
+body.noscroll {
+    
+}

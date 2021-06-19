@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Enhancer",
+  "short_name": "YouTube Enhancer",
+  "version": "0",
+  "description": "Make your YouTube experience better",
+  "author": "Tahoe Beetschen",
+
+  "content_scripts": [
+    {
+      "matches": ["https://youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+
+  "permissions": [
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "title": "Unsblock"
+  }
+}
